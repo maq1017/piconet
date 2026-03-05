@@ -23,6 +23,10 @@ Generated in response to a `TRANSMIT` command.
 - [description](types_txResultEvent.TxResultEvent.md#description)
 - [success](types_txResultEvent.TxResultEvent.md#success)
 
+### Methods
+
+- [toString](types_txResultEvent.TxResultEvent.md#tostring)
+
 ## Constructors
 
 ### constructor
@@ -42,7 +46,7 @@ Generated in response to a `TRANSMIT` command.
 
 #### Defined in
 
-[types/txResultEvent.ts:7](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/txResultEvent.ts#L7)
+[types/txResultEvent.ts:7](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/txResultEvent.ts#L7)
 
 ## Properties
 
@@ -74,7 +78,7 @@ A description of the result:
 
 #### Defined in
 
-[types/txResultEvent.ts:36](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/txResultEvent.ts#L36)
+[types/txResultEvent.ts:36](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/txResultEvent.ts#L36)
 
 ___
 
@@ -86,4 +90,18 @@ ___
 
 #### Defined in
 
-[types/txResultEvent.ts:11](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/txResultEvent.ts#L11)
+[types/txResultEvent.ts:11](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/txResultEvent.ts#L11)
+
+## Methods
+
+### toString
+
+▸ **toString**(): `string`
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[types/txResultEvent.ts:41](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/txResultEvent.ts#L41)

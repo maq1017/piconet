@@ -47,7 +47,7 @@ This event is fired regardless of the source or destination of the frame.
 
 #### Defined in
 
-[types/monitorEvent.ts:10](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/monitorEvent.ts#L10)
+[types/monitorEvent.ts:10](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/monitorEvent.ts#L10)
 
 ## Properties
 
@@ -59,7 +59,7 @@ The raw Econet frame.
 
 #### Defined in
 
-[types/monitorEvent.ts:14](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/monitorEvent.ts#L14)
+[types/monitorEvent.ts:14](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/monitorEvent.ts#L14)
 
 ## Methods
 
@@ -83,7 +83,7 @@ The raw Econet frame.
 
 #### Defined in
 
-[types/rxDataEvent.ts:7](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxDataEvent.ts#L7)
+[types/rxDataEvent.ts:7](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxDataEvent.ts#L7)
 
 ___
 
@@ -97,4 +97,4 @@ ___
 
 #### Defined in
 
-[types/monitorEvent.ts:19](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/monitorEvent.ts#L19)
+[types/monitorEvent.ts:19](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/monitorEvent.ts#L19)

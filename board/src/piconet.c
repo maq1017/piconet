@@ -480,7 +480,7 @@ void _read_command_input(void) {
             cmd.tx.scout_extra_data_len = _decode_base64(strtok(NULL, delim), cmd.tx.scout_extra_data);
         } else if (strcmp(ptr, CMD_BCAST) == 0) {
             cmd.type = PICONET_CMD_BCAST;
-            cmd.tx.data_len = _decode_base64(strtok(NULL, delim), cmd.tx.data);
+            cmd.bcast.data_len = _decode_base64(strtok(NULL, delim), cmd.bcast.data);
         } else if (strcmp(ptr, CMD_REPLY) == 0) {
             cmd.type = PICONET_CMD_REPLY;
             cmd.reply.reply_id = strtol(strtok(NULL, delim), NULL, 10);

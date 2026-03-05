@@ -48,7 +48,7 @@ local Econet station.
 
 #### Defined in
 
-[types/rxImmediateEvent.ts:9](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxImmediateEvent.ts#L9)
+[types/rxImmediateEvent.ts:9](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxImmediateEvent.ts#L9)
 
 ## Properties
 
@@ -60,7 +60,7 @@ The raw data frame.
 
 #### Defined in
 
-[types/rxImmediateEvent.ts:18](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxImmediateEvent.ts#L18)
+[types/rxImmediateEvent.ts:18](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxImmediateEvent.ts#L18)
 
 ___
 
@@ -72,7 +72,7 @@ The raw scout frame.
 
 #### Defined in
 
-[types/rxImmediateEvent.ts:13](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxImmediateEvent.ts#L13)
+[types/rxImmediateEvent.ts:13](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxImmediateEvent.ts#L13)
 
 ## Methods
 
@@ -96,7 +96,7 @@ The raw scout frame.
 
 #### Defined in
 
-[types/rxDataEvent.ts:7](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxDataEvent.ts#L7)
+[types/rxDataEvent.ts:7](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxDataEvent.ts#L7)
 
 ___
 
@@ -110,4 +110,4 @@ ___
 
 #### Defined in
 
-[types/rxImmediateEvent.ts:23](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxImmediateEvent.ts#L23)
+[types/rxImmediateEvent.ts:23](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxImmediateEvent.ts#L23)

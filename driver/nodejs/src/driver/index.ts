@@ -264,6 +264,37 @@ export const transmit = async (
 };
 
 /**
+ * Implements an Econet `BROADCAST` operation.
+ *
+ * Sends a single broadcast frame onto the network with no handshake. The frame is addressed
+ * to station 255, network 255 and will be received by all stations listening on the network.
+ *
+ * @param data  Buffer containing binary payload data to send.
+ *
+ * @returns Describes the result of the operation. If the operation was successful then the
+ *          `success` flag is set to `true`; otherwise the `description` field describes the
+ *          error.
+ */
+export const broadcast = async (data: Buffer): Promise<TxResultEvent> => {
+  if (state !== ConnectionState.Connected) {
+    throw new Error(`Cannot broadcast data on device whilst in ${state} state`);
+  }
+
+  if (data.length > config.maxTxDataLength) {
+    throw new Error('Data too long');
+  }
+
+  const queue = eventQueueCreate(event => event instanceof TxResultEvent);
+  try {
+    await writeToPort(`BCAST ${data.toString('base64')}\r`);
+    const result = await eventQueueWait(queue, 5000, 'TxResultEvent');
+    return result as TxResultEvent;
+  } finally {
+    eventQueueDestroy(queue);
+  }
+};
+
+/**
  * Disconnects from the board and closes the serial port.
  */
 export const close = async (): Promise<void> => {

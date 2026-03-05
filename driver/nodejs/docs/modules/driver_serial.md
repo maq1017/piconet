@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[driver/serial.ts:5](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/driver/serial.ts#L5)
+[driver/serial.ts:5](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/driver/serial.ts#L5)
 
 ## Functions
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[driver/serial.ts:41](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/driver/serial.ts#L41)
+[driver/serial.ts:41](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/driver/serial.ts#L41)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[driver/serial.ts:9](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/driver/serial.ts#L9)
+[driver/serial.ts:9](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/driver/serial.ts#L9)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[driver/serial.ts:84](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/driver/serial.ts#L84)
+[driver/serial.ts:84](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/driver/serial.ts#L84)
 
 ___
 
@@ -112,4 +112,4 @@ ___
 
 #### Defined in
 
-[driver/serial.ts:59](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/driver/serial.ts#L59)
+[driver/serial.ts:59](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/driver/serial.ts#L59)

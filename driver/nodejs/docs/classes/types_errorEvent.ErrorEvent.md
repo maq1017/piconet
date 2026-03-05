@@ -19,6 +19,10 @@ received packet fails to parse).
 
 - [description](types_errorEvent.ErrorEvent.md#description)
 
+### Methods
+
+- [toString](types_errorEvent.ErrorEvent.md#tostring)
+
 ## Constructors
 
 ### constructor
@@ -33,7 +37,7 @@ received packet fails to parse).
 
 #### Defined in
 
-[types/errorEvent.ts:8](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/errorEvent.ts#L8)
+[types/errorEvent.ts:8](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/errorEvent.ts#L8)
 
 ## Properties
 
@@ -45,4 +49,18 @@ A human-readable description of the error.
 
 #### Defined in
 
-[types/errorEvent.ts:12](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/errorEvent.ts#L12)
+[types/errorEvent.ts:12](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/errorEvent.ts#L12)
+
+## Methods
+
+### toString
+
+▸ **toString**(): `string`
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[types/errorEvent.ts:15](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/errorEvent.ts#L15)
