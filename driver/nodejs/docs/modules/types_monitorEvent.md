@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / types/monitorEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / types/monitorEvent
 
 # Module: types/monitorEvent
 

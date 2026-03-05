@@ -1,3 +1,3 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / driver/semver.test
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / driver/semver.test
 
 # Module: driver/semver.test

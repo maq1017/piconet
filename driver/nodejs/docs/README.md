@@ -1,4 +1,4 @@
-@jprayner/piconet-nodejs / [Modules](modules.md)
+@jprayner/piconet-nodejs / [Exports](modules.md)
 
 # NodeJS driver for Piconet
 

@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / parser/rxTransmitParser
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / parser/rxTransmitParser
 
 # Module: parser/rxTransmitParser
 
@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[parser/rxTransmitParser.ts:3](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/parser/rxTransmitParser.ts#L3)
+[parser/rxTransmitParser.ts:3](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/parser/rxTransmitParser.ts#L3)

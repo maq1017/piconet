@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / parser/statusParser
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / parser/statusParser
 
 # Module: parser/statusParser
 
@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[parser/statusParser.ts:4](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/parser/statusParser.ts#L4)
+[parser/statusParser.ts:4](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/parser/statusParser.ts#L4)

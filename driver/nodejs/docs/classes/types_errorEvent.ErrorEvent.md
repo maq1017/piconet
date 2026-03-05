@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / [types/errorEvent](../modules/types_errorEvent.md) / ErrorEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / [types/errorEvent](../modules/types_errorEvent.md) / ErrorEvent
 
 # Class: ErrorEvent
 
@@ -37,7 +37,7 @@ received packet fails to parse).
 
 #### Defined in
 
-[types/errorEvent.ts:8](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/errorEvent.ts#L8)
+[types/errorEvent.ts:8](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/errorEvent.ts#L8)
 
 ## Properties
 
@@ -49,7 +49,7 @@ A human-readable description of the error.
 
 #### Defined in
 
-[types/errorEvent.ts:12](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/errorEvent.ts#L12)
+[types/errorEvent.ts:12](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/errorEvent.ts#L12)
 
 ## Methods
 
@@ -63,4 +63,4 @@ A human-readable description of the error.
 
 #### Defined in
 
-[types/errorEvent.ts:15](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/errorEvent.ts#L15)
+[types/errorEvent.ts:15](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/errorEvent.ts#L15)

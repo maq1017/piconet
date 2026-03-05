@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / driver/version
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / driver/version
 
 # Module: driver/version
 

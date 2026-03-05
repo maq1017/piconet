@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / parser/rxBroadcastParser
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / parser/rxBroadcastParser
 
 # Module: parser/rxBroadcastParser
 
@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[parser/rxBroadcastParser.ts:3](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/parser/rxBroadcastParser.ts#L3)
+[parser/rxBroadcastParser.ts:3](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/parser/rxBroadcastParser.ts#L3)

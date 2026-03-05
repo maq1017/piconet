@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / [types/rxBroadcastEvent](../modules/types_rxBroadcastEvent.md) / RxBroadcastEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / [types/rxBroadcastEvent](../modules/types_rxBroadcastEvent.md) / RxBroadcastEvent
 
 # Class: RxBroadcastEvent
 
@@ -45,7 +45,7 @@ Fired asynchronously whilst in `LISTEN` mode as broadcast packets are received.
 
 #### Defined in
 
-[types/rxBroadcastEvent.ts:8](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxBroadcastEvent.ts#L8)
+[types/rxBroadcastEvent.ts:8](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/rxBroadcastEvent.ts#L8)
 
 ## Properties
 
@@ -57,7 +57,7 @@ The raw Econet frame.
 
 #### Defined in
 
-[types/rxBroadcastEvent.ts:12](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxBroadcastEvent.ts#L12)
+[types/rxBroadcastEvent.ts:12](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/rxBroadcastEvent.ts#L12)
 
 ## Methods
 
@@ -81,7 +81,7 @@ The raw Econet frame.
 
 #### Defined in
 
-[types/rxDataEvent.ts:7](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxDataEvent.ts#L7)
+[types/rxDataEvent.ts:7](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/rxDataEvent.ts#L7)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[types/rxBroadcastEvent.ts:17](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxBroadcastEvent.ts#L17)
+[types/rxBroadcastEvent.ts:17](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/rxBroadcastEvent.ts#L17)

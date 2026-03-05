@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / types/errorEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / types/errorEvent
 
 # Module: types/errorEvent
 

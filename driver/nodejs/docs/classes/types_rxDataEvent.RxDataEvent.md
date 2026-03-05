@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / [types/rxDataEvent](../modules/types_rxDataEvent.md) / RxDataEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / [types/rxDataEvent](../modules/types_rxDataEvent.md) / RxDataEvent
 
 # Class: RxDataEvent
 
@@ -58,4 +58,4 @@ Superclass for events emitted by the Econet driver in response to incoming data.
 
 #### Defined in
 
-[types/rxDataEvent.ts:7](https://github.com/maq1017/piconet/blob/2df67bc/driver/nodejs/src/types/rxDataEvent.ts#L7)
+[types/rxDataEvent.ts:7](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/rxDataEvent.ts#L7)
