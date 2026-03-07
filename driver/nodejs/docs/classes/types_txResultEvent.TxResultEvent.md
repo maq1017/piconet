@@ -46,7 +46,7 @@ Generated in response to a `TRANSMIT` command.
 
 #### Defined in
 
-[types/txResultEvent.ts:7](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/txResultEvent.ts#L7)
+[types/txResultEvent.ts:7](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/txResultEvent.ts#L7)
 
 ## Properties
 
@@ -78,7 +78,7 @@ A description of the result:
 
 #### Defined in
 
-[types/txResultEvent.ts:36](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/txResultEvent.ts#L36)
+[types/txResultEvent.ts:36](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/txResultEvent.ts#L36)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[types/txResultEvent.ts:11](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/txResultEvent.ts#L11)
+[types/txResultEvent.ts:11](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/txResultEvent.ts#L11)
 
 ## Methods
 
@@ -104,4 +104,4 @@ ___
 
 #### Defined in
 
-[types/txResultEvent.ts:41](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/types/txResultEvent.ts#L41)
+[types/txResultEvent.ts:41](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/txResultEvent.ts#L41)

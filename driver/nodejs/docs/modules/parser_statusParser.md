@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[parser/statusParser.ts:4](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/parser/statusParser.ts#L4)
+[parser/statusParser.ts:4](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/parser/statusParser.ts#L4)

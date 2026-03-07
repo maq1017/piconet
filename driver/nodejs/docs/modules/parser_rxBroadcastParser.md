@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[parser/rxBroadcastParser.ts:3](https://github.com/maq1017/piconet/blob/bd2b460/driver/nodejs/src/parser/rxBroadcastParser.ts#L3)
+[parser/rxBroadcastParser.ts:3](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/parser/rxBroadcastParser.ts#L3)

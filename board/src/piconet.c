@@ -379,6 +379,13 @@ void _core1_loop(void) {
                 pool_buffer_release(&rx_buffer_pool, rx_data_buffer->handle);
                 break;
             default:
+                // Broadcasts are read into the scout buffer, but Core 0 reads
+                // data from the pool buffer — copy it across before queuing.
+                if (rx_result.type == PICONET_RX_RESULT_BROADCAST &&
+                        rx_result.detail.data != NULL &&
+                        rx_result.detail.data_len <= rx_data_buffer->size) {
+                    memcpy(rx_data_buffer->data, rx_result.detail.data, rx_result.detail.data_len);
+                }
                 event.type = PICONET_RX_EVENT;
                 event.rx_event_detail.type = rx_result.type;
                 event.rx_event_detail.scout_len = rx_result.detail.scout_len;       // scout itself populated by econet module
