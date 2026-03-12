@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / types/statusEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / types/statusEvent
 
 # Module: types/statusEvent
 

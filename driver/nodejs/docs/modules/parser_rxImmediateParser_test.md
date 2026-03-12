@@ -1,3 +1,3 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / parser/rxImmediateParser.test
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / parser/rxImmediateParser.test
 
 # Module: parser/rxImmediateParser.test

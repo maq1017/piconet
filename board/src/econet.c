@@ -169,7 +169,7 @@ econet_tx_result_t transmit(
         return PICONET_TX_RESULT_ERROR_OVERFLOW;
     }
     _tx_scout_buffer[0] = station;
-    _tx_scout_buffer[1] = 0x00;
+    _tx_scout_buffer[1] = network;
     _tx_scout_buffer[2] = _listen_addresses[0];
     _tx_scout_buffer[3] = 0x00;
     _tx_scout_buffer[4] = control;

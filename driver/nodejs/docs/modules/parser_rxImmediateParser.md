@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / parser/rxImmediateParser
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / parser/rxImmediateParser
 
 # Module: parser/rxImmediateParser
 
@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[parser/rxImmediateParser.ts:3](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/parser/rxImmediateParser.ts#L3)
+[parser/rxImmediateParser.ts:3](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/parser/rxImmediateParser.ts#L3)

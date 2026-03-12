@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / types/rxTransmitEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / types/rxTransmitEvent
 
 # Module: types/rxTransmitEvent
 

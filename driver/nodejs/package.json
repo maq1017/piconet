@@ -1,6 +1,6 @@
 {
   "name": "@jprayner/piconet-nodejs",
-  "version": "2.0.20",
+  "version": "2.0.21",
   "description": "NodeJS driver for Piconet: a USB interface for the Acorn/BBC Econet based on the Raspberry Pi Pico microprocessor.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,7 +19,7 @@
     "test": "jest --no-cache --runInBand --detectOpenHandles --coverage --config=jest.config.js",
     "lint": "prettier --check . && eslint . --ext .ts,.js",
     "lint:fix": "prettier --write . && eslint --fix . --ext .ts,.js",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --out docs src/**/*.ts"
+    "docs": "typedoc --plugin typedoc-plugin-markdown --out docs --entryPointStrategy expand src"
   },
   "publishConfig": {
     "access": "public"

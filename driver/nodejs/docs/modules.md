@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](README.md) / Modules
+[@jprayner/piconet-nodejs](README.md) / Exports
 
 # @jprayner/piconet-nodejs
 
@@ -6,12 +6,14 @@
 
 ### Modules
 
+- [config](modules/config.md)
 - [driver](modules/driver.md)
 - [driver/index.test](modules/driver_index_test.md)
 - [driver/semver](modules/driver_semver.md)
 - [driver/semver.test](modules/driver_semver_test.md)
 - [driver/serial](modules/driver_serial.md)
 - [driver/version](modules/driver_version.md)
+- [index](modules/index.md)
 - [parser/errorParser](modules/parser_errorParser.md)
 - [parser/errorParser.test](modules/parser_errorParser_test.md)
 - [parser/monitorParser](modules/parser_monitorParser.md)

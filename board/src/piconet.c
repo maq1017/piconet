@@ -17,7 +17,7 @@
 
 #define VERSION_MAJOR           2
 #define VERSION_MINOR           0
-#define VERSION_REV             20
+#define VERSION_REV             21
 #define VERSION_STR_MAXLEN      17
 
 #define TX_DATA_BUFFER_SZ       3500
@@ -379,6 +379,13 @@ void _core1_loop(void) {
                 pool_buffer_release(&rx_buffer_pool, rx_data_buffer->handle);
                 break;
             default:
+                // Broadcasts are read into the scout buffer, but Core 0 reads
+                // data from the pool buffer — copy it across before queuing.
+                if (rx_result.type == PICONET_RX_RESULT_BROADCAST &&
+                        rx_result.detail.data != NULL &&
+                        rx_result.detail.data_len <= rx_data_buffer->size) {
+                    memcpy(rx_data_buffer->data, rx_result.detail.data, rx_result.detail.data_len);
+                }
                 event.type = PICONET_RX_EVENT;
                 event.rx_event_detail.type = rx_result.type;
                 event.rx_event_detail.scout_len = rx_result.detail.scout_len;       // scout itself populated by econet module
@@ -480,7 +487,7 @@ void _read_command_input(void) {
             cmd.tx.scout_extra_data_len = _decode_base64(strtok(NULL, delim), cmd.tx.scout_extra_data);
         } else if (strcmp(ptr, CMD_BCAST) == 0) {
             cmd.type = PICONET_CMD_BCAST;
-            cmd.tx.data_len = _decode_base64(strtok(NULL, delim), cmd.tx.data);
+            cmd.bcast.data_len = _decode_base64(strtok(NULL, delim), cmd.bcast.data);
         } else if (strcmp(ptr, CMD_REPLY) == 0) {
             cmd.type = PICONET_CMD_REPLY;
             cmd.reply.reply_id = strtol(strtok(NULL, delim), NULL, 10);

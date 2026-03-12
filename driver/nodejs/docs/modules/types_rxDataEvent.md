@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / types/rxDataEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / types/rxDataEvent
 
 # Module: types/rxDataEvent
 

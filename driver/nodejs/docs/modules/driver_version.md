@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / driver/version
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / driver/version
 
 # Module: driver/version
 
@@ -12,7 +12,7 @@
 
 ### PKG\_VERSION
 
-• `Const` **PKG\_VERSION**: ``"1.0.18"``
+• `Const` **PKG\_VERSION**: ``"2.0.21"``
 
 #### Defined in
 

@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / parser/errorParser
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / parser/errorParser
 
 # Module: parser/errorParser
 
@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[parser/errorParser.ts:3](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/parser/errorParser.ts#L3)
+[parser/errorParser.ts:3](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/parser/errorParser.ts#L3)

@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / [types/rxTransmitEvent](../modules/types_rxTransmitEvent.md) / RxTransmitEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / [types/rxTransmitEvent](../modules/types_rxTransmitEvent.md) / RxTransmitEvent
 
 # Class: RxTransmitEvent
 
@@ -48,7 +48,7 @@ local Econet station.
 
 #### Defined in
 
-[types/rxTransmitEvent.ts:9](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxTransmitEvent.ts#L9)
+[types/rxTransmitEvent.ts:9](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/rxTransmitEvent.ts#L9)
 
 ## Properties
 
@@ -60,7 +60,7 @@ The raw data frame.
 
 #### Defined in
 
-[types/rxTransmitEvent.ts:17](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxTransmitEvent.ts#L17)
+[types/rxTransmitEvent.ts:17](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/rxTransmitEvent.ts#L17)
 
 ___
 
@@ -72,7 +72,7 @@ The raw scout frame.
 
 #### Defined in
 
-[types/rxTransmitEvent.ts:13](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxTransmitEvent.ts#L13)
+[types/rxTransmitEvent.ts:13](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/rxTransmitEvent.ts#L13)
 
 ## Methods
 
@@ -96,7 +96,7 @@ The raw scout frame.
 
 #### Defined in
 
-[types/rxDataEvent.ts:7](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxDataEvent.ts#L7)
+[types/rxDataEvent.ts:7](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/rxDataEvent.ts#L7)
 
 ___
 
@@ -110,4 +110,4 @@ ___
 
 #### Defined in
 
-[types/rxTransmitEvent.ts:22](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/rxTransmitEvent.ts#L22)
+[types/rxTransmitEvent.ts:22](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/rxTransmitEvent.ts#L22)

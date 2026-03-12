@@ -86,7 +86,7 @@ export const connect = async (requestedDevice?: string): Promise<void> => {
   state = ConnectionState.Connecting;
   try {
     await openPort(handleData, requestedDevice);
-    const status = await readStatus();
+    const status = await readStatus(5000);
 
     const firmwareVersionStr = status.firmwareVersion;
     const firmwareVersion = parseSemver(firmwareVersionStr);
@@ -264,6 +264,37 @@ export const transmit = async (
 };
 
 /**
+ * Implements an Econet `BROADCAST` operation.
+ *
+ * Sends a single broadcast frame onto the network with no handshake. The frame is addressed
+ * to station 255, network 255 and will be received by all stations listening on the network.
+ *
+ * @param data  Buffer containing binary payload data to send.
+ *
+ * @returns Describes the result of the operation. If the operation was successful then the
+ *          `success` flag is set to `true`; otherwise the `description` field describes the
+ *          error.
+ */
+export const broadcast = async (data: Buffer, timeoutMs = 5000): Promise<TxResultEvent> => {
+  if (state !== ConnectionState.Connected) {
+    throw new Error(`Cannot broadcast data on device whilst in ${state} state`);
+  }
+
+  if (data.length > config.maxTxDataLength) {
+    throw new Error('Data too long');
+  }
+
+  const queue = eventQueueCreate(event => event instanceof TxResultEvent);
+  try {
+    await writeToPort(`BCAST ${data.toString('base64')}\r`);
+    const result = await eventQueueWait(queue, timeoutMs, 'TxResultEvent');
+    return result as TxResultEvent;
+  } finally {
+    eventQueueDestroy(queue);
+  }
+};
+
+/**
  * Disconnects from the board and closes the serial port.
  */
 export const close = async (): Promise<void> => {
@@ -419,7 +450,7 @@ export const eventQueueShift = (queue: EventQueue): EconetEvent | undefined => {
  *
  * @returns The current status of the board.
  */
-export const readStatus = async (): Promise<StatusEvent> => {
+export const readStatus = async (timeoutMs = 1000): Promise<StatusEvent> => {
   if (
     state !== ConnectionState.Connecting &&
     state !== ConnectionState.Connected
@@ -430,7 +461,7 @@ export const readStatus = async (): Promise<StatusEvent> => {
   const queue = eventQueueCreate(event => event instanceof StatusEvent);
   try {
     await writeToPort('STATUS\r');
-    const result = await eventQueueWait(queue, 1000, 'STATUS response');
+    const result = await eventQueueWait(queue, timeoutMs, 'STATUS response');
     return result as StatusEvent;
   } finally {
     eventQueueDestroy(queue);

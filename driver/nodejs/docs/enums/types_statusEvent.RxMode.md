@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / [types/statusEvent](../modules/types_statusEvent.md) / RxMode
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / [types/statusEvent](../modules/types_statusEvent.md) / RxMode
 
 # Enumeration: RxMode
 
@@ -26,7 +26,7 @@ the station number before entering this mode.
 
 #### Defined in
 
-[types/statusEvent.ts:18](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/statusEvent.ts#L18)
+[types/statusEvent.ts:18](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/statusEvent.ts#L18)
 
 ___
 
@@ -40,7 +40,7 @@ the BBC NETMON utility. A code example is provided for how to build such a utili
 
 #### Defined in
 
-[types/statusEvent.ts:25](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/statusEvent.ts#L25)
+[types/statusEvent.ts:25](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/statusEvent.ts#L25)
 
 ___
 
@@ -53,4 +53,4 @@ allowing the client to initialise configuration before proceeding.
 
 #### Defined in
 
-[types/statusEvent.ts:11](https://github.com/jprayner/piconet/blob/81026b7/driver/nodejs/src/types/statusEvent.ts#L11)
+[types/statusEvent.ts:11](https://github.com/maq1017/piconet/blob/9487712/driver/nodejs/src/types/statusEvent.ts#L11)

@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / types/rxImmediateEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / types/rxImmediateEvent
 
 # Module: types/rxImmediateEvent
 

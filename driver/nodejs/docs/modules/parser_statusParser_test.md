@@ -1,3 +1,3 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / parser/statusParser.test
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / parser/statusParser.test
 
 # Module: parser/statusParser.test

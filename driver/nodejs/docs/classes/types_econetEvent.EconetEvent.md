@@ -1,4 +1,4 @@
-[@jprayner/piconet-nodejs](../README.md) / [Modules](../modules.md) / [types/econetEvent](../modules/types_econetEvent.md) / EconetEvent
+[@jprayner/piconet-nodejs](../README.md) / [Exports](../modules.md) / [types/econetEvent](../modules/types_econetEvent.md) / EconetEvent
 
 # Class: EconetEvent
 
